@@ -1,0 +1,15 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "Building REST api using nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Ullas Kunder",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
