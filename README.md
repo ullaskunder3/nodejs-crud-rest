@@ -1,6 +1,6 @@
 # RESTapi
 
-## Buidling CRUD api using nodejs & express
+## Buidling CRUD api using nodejs, express & thunder clinet (vs code extension)
 
 ## Routes
 
@@ -14,4 +14,21 @@ GET/users/:id :Find user details
 DELETE/users/:id :Delete a user
 
 PATCH/users/:id :Update a user
+```
+
+project dir
+
+```cmd
+│   .gitignore
+│   index.js
+|   node_modules
+│   package-lock.json
+│   package.json
+│   README.md
+│
+├───controllers
+│       users.js
+│
+└───routes
+        users.js
 ```
